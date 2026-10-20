@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://landingpageoff.github.io/nathan-psicologo/sitemap.xml
