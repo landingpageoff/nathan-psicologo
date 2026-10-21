@@ -185,6 +185,20 @@ h1 span, h2 span { color: var(--color-blue); }
   :root { --header-height: 68px; }
   .container { width: min(100% - 36px, var(--content-width)); }
   .section-screen { min-height: 100svh; padding: 84px 0; }
+  .brand-caption { font-size: 12px; }
+  .button-small { font-size: 14px; }
+  .text-link { font-size: 15px; }
+  .eyebrow { font-size: 12px; letter-spacing: .09em; }
+  .hero-description, .about-copy > p:not(.eyebrow), .section-heading > p:last-child,
+  .faq-intro > p:not(.eyebrow) { font-size: 16px; }
+  .hero-note, .credentials small, .process-cta p, .testimonial-caption,
+  .ethical-note, .footer-content > p { font-size: 14px; }
+  .about-art-caption { font-size: 12px; letter-spacing: .06em; }
+  .credentials strong, .contact-details strong { font-size: 15px; }
+  .help-card p, .step-card p, .faq-item p, .contact-content > p:not(.eyebrow) { font-size: 15px; }
+  .faq-item summary { font-size: 16px; }
+  .contact-details p { font-size: 14px; }
+  .footer-content > small { font-size: 13px; }
   .site-header { background: rgba(255,255,255,.95); }
   .menu-toggle { position: relative; z-index: 2; display: flex; width: 44px; height: 44px; flex-direction: column; align-items: center; justify-content: center; gap: 5px; border: 1px solid var(--color-border); border-radius: 12px; background: var(--color-white); cursor: pointer; }
   .menu-toggle span { width: 18px; height: 2px; border-radius: 2px; background: var(--color-navy); transition: transform .2s ease, opacity .2s ease; }
@@ -203,7 +217,7 @@ h1 span, h2 span { color: var(--color-blue); }
   .hero-grid { grid-template-columns: 1fr; gap: 37px; }
   .hero-copy { max-width: 590px; }
   h1 { font-size: clamp(39px, 9vw, 57px); }
-  .hero-description { font-size: 14px; }
+  .hero-description { font-size: 16px; }
   .hero-visual { width: min(78%, 360px); justify-self: center; }
   .scroll-cue { display: none; }
   .about-grid { grid-template-columns: 1fr; gap: 37px; }
@@ -228,7 +242,7 @@ h1 span, h2 span { color: var(--color-blue); }
   .section-screen { padding: 72px 0; }
   .hero { padding-top: calc(var(--header-height) + 48px); padding-bottom: 68px; }
   .hero-grid { gap: 29px; }
-  .eyebrow { font-size: 10px; }
+  .eyebrow { font-size: 12px; }
   h1 { font-size: clamp(36px, 10vw, 46px); }
   .hero-actions { align-items: stretch; gap: 14px; }
   .hero-actions .button { width: 100%; }
@@ -237,7 +251,7 @@ h1 span, h2 span { color: var(--color-blue); }
   .hero-visual { width: min(86%, 330px); }
   .decoration-one { right: -16px; width: 100px; height: 100px; }
   .decoration-two { left: -22px; width: 56px; height: 56px; }
-  .about-art-caption { font-size: 9px; }
+  .about-art-caption { font-size: 12px; }
   .about-copy h2, .section-heading h2, .faq-intro h2 { font-size: 32px; }
   .section-heading { margin-bottom: 30px; }
   .help-grid { grid-template-columns: 1fr; }
