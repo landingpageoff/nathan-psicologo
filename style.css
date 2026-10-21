@@ -43,6 +43,7 @@ button { font: inherit; }
 .menu-toggle { display: none; }
 .button { display: inline-flex; min-height: 54px; align-items: center; justify-content: center; gap: 10px; padding: 0 24px; border: 1px solid var(--color-blue); border-radius: 12px; color: var(--color-white); background: var(--color-blue); box-shadow: 0 8px 18px rgba(59, 130, 196, .18); font-size: 14px; font-weight: 600; transition: background .2s ease, border-color .2s ease, transform .2s ease, box-shadow .2s ease; cursor: pointer; }
 .button svg, .whatsapp-float svg { width: 20px; height: 20px; fill: currentColor; }
+.webpsi-logo { width: 44px; height: auto; flex: 0 0 auto; }
 .button:hover { transform: translateY(-2px); border-color: var(--color-blue-dark); background: var(--color-blue-dark); box-shadow: 0 11px 24px rgba(59, 130, 196, .26); }
 .button-small { min-height: 42px; padding-inline: 18px; border-radius: 10px; font-size: 12px; }
 .text-link { display: inline-flex; align-items: center; gap: 8px; color: var(--color-navy); font-size: 13px; font-weight: 600; }
