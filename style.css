@@ -5,7 +5,7 @@
   --color-pale: #EAF3FB;
   --color-white: #fff;
   --color-ink: #30445a;
-  --color-muted: #53677a;
+  --color-muted: #65788a;
   --color-border: #dce8f1;
   --font-heading: "Lora", Georgia, serif;
   --font-body: "Inter", Arial, sans-serif;
@@ -16,7 +16,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-height) + 18px); }
-body { margin: 0; color: var(--color-ink); background: var(--color-white); font-family: var(--font-body); font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; }
+body { margin: 0; color: var(--color-ink); background: var(--color-white); font-family: var(--font-body); font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
 body.menu-open { overflow: hidden; }
 img, svg { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
@@ -83,7 +83,7 @@ h1 span, h2 span { color: var(--color-blue); }
 .about-emblem { width: 100%; height: auto; object-fit: contain; }
 .about-art-caption { display: block; margin-top: 12px; color: var(--color-muted); font-size: 10px; letter-spacing: .1em; text-align: center; text-transform: uppercase; }
 .about-copy h2, .section-heading h2, .faq-intro h2 { margin-bottom: 19px; font-size: clamp(31px, 4vw, 45px); }
-.about-copy > p:not(.eyebrow) { margin-bottom: 18px; color: var(--color-muted); font-size: 14px; line-height: 1.95; }
+.about-copy > p:not(.eyebrow) { margin-bottom: 14px; color: var(--color-muted); font-size: 14px; line-height: 1.9; }
 .credentials { display: grid; gap: 15px; margin: 25px 0 25px; }
 .credentials > div { display: flex; align-items: center; gap: 13px; }
 .credential-icon { display: grid; width: 39px; height: 39px; flex: 0 0 auto; place-items: center; border-radius: 12px; color: var(--color-blue); background: var(--color-white); font-size: 18px; }
@@ -101,7 +101,7 @@ h1 span, h2 span { color: var(--color-blue); }
 .card-icon { display: grid; width: 42px; height: 42px; place-items: center; margin-bottom: 15px; border-radius: 13px; color: var(--color-blue); background: var(--color-pale); }
 .card-icon svg { width: 25px; height: 25px; fill: currentColor; }
 .help-card h3, .step-card h3 { margin-bottom: 7px; color: var(--color-navy); font-family: var(--font-heading); font-size: 19px; font-weight: 600; }
-.help-card p { margin: 0; color: var(--color-muted); font-size: 12px; line-height: 1.9; }
+.help-card p { margin: 0; color: var(--color-muted); font-size: 12px; line-height: 1.8; }
 .ethical-note { margin: 24px auto 0; color: var(--color-muted); font-size: 11px; text-align: center; }
 
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 35px; }
@@ -110,7 +110,7 @@ h1 span, h2 span { color: var(--color-blue); }
 .step-line { position: absolute; top: 26px; right: -33px; width: 60px; height: 1px; background: #c7dbe9; }
 .step-card:last-child .step-line { display: none; }
 .step-card h3 { font-size: 20px; }
-.step-card p { margin: 0; color: var(--color-muted); font-size: 13px; line-height: 1.95; }
+.step-card p { margin: 0; color: var(--color-muted); font-size: 13px; line-height: 1.85; }
 .process-cta { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 42px; }
 .process-cta p { margin: 0; color: var(--color-muted); font-size: 13px; }
 .button-outline { min-height: 45px; padding-inline: 20px; border-color: #b8d0e2; color: var(--color-navy); background: transparent; box-shadow: none; }
@@ -132,7 +132,7 @@ h1 span, h2 span { color: var(--color-blue); }
 .faq-item summary::-webkit-details-marker { display: none; }
 .faq-item summary::after { position: absolute; top: 15px; right: 1px; display: grid; width: 27px; height: 27px; place-items: center; border-radius: 50%; color: var(--color-blue); background: rgba(255,255,255,.7); font-size: 17px; font-weight: 400; content: "+"; transition: transform .2s ease; }
 .faq-item[open] summary::after { transform: rotate(45deg); }
-.faq-item p { max-width: 600px; margin: -2px 35px 18px 0; color: var(--color-muted); font-size: 12px; line-height: 1.95; }
+.faq-item p { max-width: 600px; margin: -2px 35px 18px 0; color: var(--color-muted); font-size: 12px; line-height: 1.85; }
 
 .contact { min-height: 660px; }
 .contact-container { max-width: 940px; }
